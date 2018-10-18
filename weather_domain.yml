@@ -1,0 +1,36 @@
+slots:
+ location:
+   type: text  
+
+intents:
+  - greet
+  - goodbye
+  - inform
+  - talk
+
+entities:
+  - location
+
+templates:
+  utter_greet:
+  - 'Hello there!'
+  - 'Hi there!'
+  utter_goodbye:
+  - 'Talk to you later.'
+  - 'See you later :('
+  - 'Bye bye :('
+  - 'Good bye!'
+  utter_ask_location:
+  - 'In what location?'
+  utter_talk:
+  - 'I am fine, thank you!'
+  - 'Everything is going smoothly, thanks!'
+  - 'I am doing good, thank you!' 
+
+
+actions:
+  - utter_greet
+  - utter_talk
+  - utter_goodbye
+  - utter_ask_location
+  - actions.ActionWeather  
