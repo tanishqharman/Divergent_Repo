@@ -1,5 +1,3 @@
-Hi this is tanishq
-
 Project Name: 
   - Divergent
 
