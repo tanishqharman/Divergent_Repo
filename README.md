@@ -1,5 +1,3 @@
-Repository for Microsoft CodeFunDo++ Project 'Divergent'.
-
 Hi this is tanishq
 
 Project Name: 
